@@ -1,0 +1,15 @@
+<div class="conteudo">
+  <p class="titulo">Populares na KpopFlix</p>
+  <div class="filmes">
+    <div class="filme">
+      <img src="https://portalpopline.com.br/wp-content/uploads/2018/10/bts-movie-poster.jpg" alt="" (mouseover)="showOrhideFilterPopUp()" (mouseleave)="showOrhideFilterPopUp()">
+    </div>
+    <div class="filme">
+      <img src="https://m.media-amazon.com/images/M/MV5BMDZjMDExMGUtN2RkYy00YjgwLWJiMzktMmU3ODNjNzAzOWJlXkEyXkFqcGdeQXVyNTYzMTAwNjg@._V1_.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="show" [ngbCollapse]="!showPopUp">
+  <app-filmeClick></app-filmeClick>
+</div>

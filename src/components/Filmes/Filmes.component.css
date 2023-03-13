@@ -1,0 +1,39 @@
+.filme{
+  cursor: pointer;
+}
+
+.filme:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.conteudo{
+  background-color: #141414;
+  padding-top: 20px;
+  position: absolute;
+  height: 900px;
+  width: 100%;
+}
+
+img{
+  width: 290px;
+  padding: 10px;
+}
+
+.show{
+position: relative;
+}
+
+.titulo{
+  color: #fff;
+  font-weight: bold;
+  padding-left: 60px;
+  font-size: 30px;
+}
+
+
+.filmes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

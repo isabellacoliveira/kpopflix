@@ -1,6 +1,6 @@
 .conteudo{
   background-image: url('../../assets/bp.jpg');
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   width: 100%;
   background-color: red;
@@ -8,13 +8,62 @@
 
   }
 
+  .imagens{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .imglogo{
+    width: 200px;
+  }
   img{
     width: 500px;
-    padding-left: 30px;
+    padding-left: 60px;
   }
 
   .descricao{
     color: #fff;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 60px;
   }
+
+  .assistir{
+    color: black;
+    background-color: var(--branco);
+    box-sizing: border-box;
+    transition: 0.55s;
+    cursor: pointer;
+  }
+
+  .botao{
+    border: none;
+    padding: 15px 25px;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 25px;
+    background-color: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.botao:nth-child(2){
+    color: #aaa;
+}
+
+#play, #info{
+    margin-right: 10px;
+}
+
+.botao:hover{
+    color: black;
+    background-color: var(--branco);
+    box-sizing: border-box;
+    transition: 0.55s;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.buttons{
+  padding-left: 60px;
+}

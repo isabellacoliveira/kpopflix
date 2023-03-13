@@ -1,0 +1,75 @@
+.popup{
+  background-color: #141414;
+  width: 500px;
+  border-radius: 8px;
+  position: absolute;
+  padding-top: 20px;
+
+}
+
+.capa{
+  width: 500px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.idade{
+  width: 30px;
+}
+
+.comandos{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.informacoes{
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.comands{
+  width: 60px;
+}
+
+.divcommand{
+  width: 60px;
+  background-color: #2F2F2F;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.comandsmore{
+  width: 35px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.comandslike{
+  width: 40px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.rodar{
+  transform: rotate(180deg);
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.divcommand:hover{
+  transform: translateY(-4px);
+  cursor: pointer;
+  background-color: #fff;
+}
+
