@@ -4,7 +4,10 @@
   border-radius: 8px;
   position: absolute;
   padding-top: 20px;
-
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .capa{

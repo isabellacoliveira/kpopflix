@@ -2,6 +2,7 @@ import { HeaderComponent } from './../components/Header/Header.component';
 import { RouterModule, Routes } from "@angular/router";
 import { NgModule } from '@angular/core';
 import { InicioComponent } from 'src/components/Inicio/Inicio.component';
+import { NotFoundComponent } from 'src/components/NotFound/NotFound.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,10 @@ const routes: Routes = [
         component: InicioComponent
       }
     ]
+  },
+  {
+    path: "*",
+    component: NotFoundComponent
   }
 ];
 

@@ -9,7 +9,7 @@ import { Filmes } from 'src/models/filmes';
 })
 export class FilmesComponent implements OnInit {
   showPopUp: boolean = false;
-  resultado: Filmes | undefined | any
+  grupos: Filmes[] = [];
 
   showOrhideFilterPopUp() {
     this.showPopUp = !this.showPopUp;
@@ -23,8 +23,8 @@ export class FilmesComponent implements OnInit {
 
   getGrupos(): void {
     this.service.getGruposKpop().subscribe((result) => {
-      this.resultado = result;
-      console.log(this.resultado)
+      this.grupos = result;
+      console.log(this.grupos)
     });
   }
 

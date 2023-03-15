@@ -9,8 +9,8 @@ import { Filmes } from 'src/models/filmes';
 export class FilmesService {
   constructor(private http: HttpClient) { }
 
-  getGruposKpop(): Observable<Filmes> {
-    return this.http.get<Filmes>(
+  getGruposKpop(): Observable<Filmes[]> {
+    return this.http.get<Filmes[]>(
       'http://localhost:3000/filmes'
     );
   }
