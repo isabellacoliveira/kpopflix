@@ -14,4 +14,10 @@ export class FilmesService {
       'http://localhost:3000/filmes'
     );
   }
+
+  getGrupos(): Observable<Filmes> {
+    return this.http.get<Filmes>(
+      'http://localhost:3000/filmes'
+    );
+  }
 }

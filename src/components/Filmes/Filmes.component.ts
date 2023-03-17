@@ -5,11 +5,13 @@ import { Filmes } from 'src/models/filmes';
 @Component({
   selector: 'app-Filmes',
   templateUrl: './Filmes.component.html',
-  styleUrls: ['./Filmes.component.css']
+  styleUrls: ['./Filmes.component.scss']
 })
 export class FilmesComponent implements OnInit {
   showPopUp: boolean = false;
   grupos: Filmes[] = [];
+  i: number = 0;
+  nomeDoGrupo: string | undefined = '';
 
   showOrhideFilterPopUp() {
     this.showPopUp = !this.showPopUp;
@@ -18,14 +20,12 @@ export class FilmesComponent implements OnInit {
   constructor(private service: FilmesService) { }
 
   ngOnInit() {
-    this.getGrupos()
+    this.getGrupos();
   }
 
   getGrupos(): void {
     this.service.getGruposKpop().subscribe((result) => {
       this.grupos = result;
-      console.log(this.grupos)
     });
   }
-
 }

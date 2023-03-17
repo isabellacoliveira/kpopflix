@@ -1,13 +1,12 @@
 .popup{
+  width: 600px;
   background-color: #141414;
-  width: 500px;
   border-radius: 8px;
-  position: absolute;
   padding-top: 20px;
-  width: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-left: 500px;
 }
 
 .capa{

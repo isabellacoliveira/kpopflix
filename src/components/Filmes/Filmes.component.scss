@@ -10,7 +10,6 @@
 .conteudo{
   background-color: #141414;
   padding-top: 20px;
-  position: absolute;
   height: 900px;
   width: 100%;
 }
@@ -22,7 +21,7 @@ img{
 }
 
 .show{
-position: relative;
+position: absolute;
 width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,6 +38,7 @@ width: 100%;
 .filmes{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  
+  position: relative;
 }

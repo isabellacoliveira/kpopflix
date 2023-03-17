@@ -11,10 +11,13 @@
   font-family: 'Arial Black', Times;
   color: #e50914;
   font-size: 200;
+  cursor: pointer;
 }
 
 .option{
   cursor: pointer;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 .options{
@@ -23,7 +26,7 @@
   font-family: Roboto, "Helvetica Neue", sans-serif;
   color: #fff;
   padding-left: 10px;
-  
+
 }
 
 .right{
@@ -34,7 +37,6 @@
   background: #333;
   width: 400px;
   height: 60px;
-  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
   border: none;
