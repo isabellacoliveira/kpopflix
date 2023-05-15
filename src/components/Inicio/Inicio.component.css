@@ -1,15 +1,9 @@
 .conteudo{
-  background-image: url('../../assets/bp.jpg');
-  height: 600px;
-  background-repeat: no-repeat;
   width: 100%;
-  background-color: red;
-  background-size: 2000px 1000px;
+}
 
-  }
-
-  .imagens{
-    display: flex;
+.imagens{
+  display: flex;
     flex-direction: column;
     padding-top: 30px;
   }

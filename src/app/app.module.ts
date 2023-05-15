@@ -8,6 +8,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarrosselComponent } from 'src/components/carrossel/carrossel.component';
+import { RodapeComponent } from 'src/components/Rodape/Rodape.component';
+
 
 @NgModule({
   declarations: [
@@ -15,13 +20,17 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     InicioComponent,
     FilmesComponent,
-    FilmeClickComponent
+    FilmeClickComponent,
+    CarrosselComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule,
+    NgbCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

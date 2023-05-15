@@ -1,0 +1,30 @@
+<ngb-carousel class="imagens">
+  <ng-template ngbSlide>
+    <img src="../../assets/txt.jpg" alt="Imagem 1">
+  </ng-template>
+  <ng-content></ng-content>
+  <ng-template ngbSlide>
+    <img src="../../assets/bpmv.jpg" alt="Imagem 2">
+  </ng-template>
+  <ng-content></ng-content>
+  <ng-template ngbSlide>
+    <img src="../../assets/mv.jpg" alt="Imagem 3">
+  </ng-template>
+  <ng-content></ng-content>
+  <ng-template ngbSlide>
+    <img src="../../assets/itz.webp" alt="Imagem 3">
+  </ng-template>
+  <ng-content></ng-content>
+</ngb-carousel>
+
+<!-- <div id="carouselExample" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let slide of slides; let i = index" [ngClass]="{'active': i === 0}">
+      <img [src]="slide.imageUrl" class="d-block w-100" alt="Imagem do slide">
+      <div class="carousel-caption">
+        <h3>{{ slide.caption }}</h3>
+      </div>
+    </div>
+  </div>
+</div> -->
+
